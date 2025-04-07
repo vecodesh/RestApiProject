@@ -1,0 +1,99 @@
+2025-03-27 01:36:35.395  INFO 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Starting ArtfApplication using Java 21.0.5 on LAPTOP-KB3383SG with PID 30340 (C:\Users\Vedesh\RestApi2\6f7385aa-d3d6-42bb-a733-d131e90f9107-47d957cf-982d-4f5e-96f6-6f3157ff10a9\artf\target\classes started by Vedesh in C:\Users\Vedesh\RestApi2\6f7385aa-d3d6-42bb-a733-d131e90f9107-47d957cf-982d-4f5e-96f6-6f3157ff10a9)
+2025-03-27 01:36:35.395 DEBUG 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-03-27 01:36:35.395  INFO 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-27 01:36:35.446  INFO 30340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-27 01:36:35.446  INFO 30340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-27 01:36:36.444  INFO 30340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27 01:36:36.556  INFO 30340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 7 JPA repository interfaces.
+2025-03-27 01:36:37.209  INFO 30340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-03-27 01:36:37.219  INFO 30340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27 01:36:37.220  INFO 30340 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-03-27 01:36:37.299  INFO 30340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27 01:36:37.299  INFO 30340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1853 ms
+2025-03-27 01:36:37.676  INFO 30340 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27 01:36:37.736  INFO 30340 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-03-27 01:36:37.874  INFO 30340 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-03-27 01:36:37.957  INFO 30340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-27 01:36:38.269  INFO 30340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-27 01:36:38.294  INFO 30340 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-03-27 01:36:38.918  INFO 30340 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-27 01:36:38.924  INFO 30340 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 01:36:39.493  WARN 30340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27 01:36:40.808  INFO 30340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-27 01:36:40.819  INFO 30340 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-03-27 01:36:40.856  INFO 30340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-27 01:36:40.873  INFO 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Started ArtfApplication in 5.852 seconds (JVM running for 6.372)
+2025-03-27 01:36:41.373  INFO 30340 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27 01:36:41.373  INFO 30340 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27 01:36:41.373  INFO 30340 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-27 01:37:46.623  INFO 30340 --- [http-nio-8080-exec-3] c.prjgrp.artf.controller.UserController  : Adding new user: Vedesh
+2025-03-27 01:37:46.623  INFO 30340 --- [http-nio-8080-exec-3] com.prjgrp.artf.service.FitnessTrack     : Saving user: Vedesh
+2025-03-27 01:40:35.076  INFO 30340 --- [http-nio-8080-exec-5] c.prjgrp.artf.controller.UserController  : Fetching all users...
+2025-03-27 01:40:35.081  INFO 30340 --- [http-nio-8080-exec-5] com.prjgrp.artf.service.FitnessTrack     : Retrieving all users...
+2025-03-27 01:40:45.937  INFO 30340 --- [http-nio-8080-exec-6] c.prjgrp.artf.controller.UserController  : Fetching all users...
+2025-03-27 01:40:45.937  INFO 30340 --- [http-nio-8080-exec-6] com.prjgrp.artf.service.FitnessTrack     : Retrieving all users...
+2025-03-27 01:43:16.899  INFO 30340 --- [http-nio-8080-exec-1] c.prjgrp.artf.controller.UserController  : Fetching all users...
+2025-03-27 01:43:16.901  INFO 30340 --- [http-nio-8080-exec-1] com.prjgrp.artf.service.FitnessTrack     : Retrieving all users...
+2025-03-27 01:46:15.261  WARN 30340 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2025-03-27 01:47:23.998  WARN 30340 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2025-03-27 01:47:28.217  WARN 30340 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2025-03-27 01:48:28.099  WARN 30340 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2025-03-27 01:49:53.639  WARN 30340 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'goaltype' for method parameter type String is not present]
+2025-03-27 01:50:37.018  INFO 30340 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-27 01:50:37.027  INFO 30340 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-27 01:50:37.028  INFO 30340 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-03-27 01:50:37.035  INFO 30340 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 01:50:37.039  INFO 30340 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-27 01:50:37.048  INFO 30340 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-27 01:50:37.123  INFO 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Starting ArtfApplication using Java 21.0.5 on LAPTOP-KB3383SG with PID 30340 (C:\Users\Vedesh\RestApi2\6f7385aa-d3d6-42bb-a733-d131e90f9107-47d957cf-982d-4f5e-96f6-6f3157ff10a9\artf\target\classes started by Vedesh in C:\Users\Vedesh\RestApi2\6f7385aa-d3d6-42bb-a733-d131e90f9107-47d957cf-982d-4f5e-96f6-6f3157ff10a9)
+2025-03-27 01:50:37.123 DEBUG 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-03-27 01:50:37.123  INFO 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-27 01:50:37.333  INFO 30340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27 01:50:37.353  INFO 30340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 7 JPA repository interfaces.
+2025-03-27 01:50:37.415  INFO 30340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-03-27 01:50:37.416  INFO 30340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27 01:50:37.416  INFO 30340 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-03-27 01:50:37.436  INFO 30340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27 01:50:37.437  INFO 30340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+2025-03-27 01:50:37.483  INFO 30340 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27 01:50:37.487  INFO 30340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-03-27 01:50:37.500  INFO 30340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-03-27 01:50:37.500  INFO 30340 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-03-27 01:50:37.585  INFO 30340 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-27 01:50:37.586  INFO 30340 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 01:50:37.688  WARN 30340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27 01:50:38.117  INFO 30340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-27 01:50:38.119  INFO 30340 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-03-27 01:50:38.137  INFO 30340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-27 01:50:38.144  INFO 30340 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Started ArtfApplication in 1.046 seconds (JVM running for 843.642)
+2025-03-27 01:50:38.147  INFO 30340 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-27 01:50:39.681  INFO 24992 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Starting ArtfApplication using Java 21.0.5 on LAPTOP-KB3383SG with PID 24992 (C:\Users\Vedesh\RestApi2\6f7385aa-d3d6-42bb-a733-d131e90f9107-47d957cf-982d-4f5e-96f6-6f3157ff10a9\artf\target\classes started by Vedesh in C:\Users\Vedesh\RestApi2\6f7385aa-d3d6-42bb-a733-d131e90f9107-47d957cf-982d-4f5e-96f6-6f3157ff10a9)
+2025-03-27 01:50:39.681 DEBUG 24992 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Running with Spring Boot v2.7.15, Spring v5.3.29
+2025-03-27 01:50:39.681  INFO 24992 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-27 01:50:39.738  INFO 24992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-27 01:50:39.738  INFO 24992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-27 01:50:40.583  INFO 24992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27 01:50:40.648  INFO 24992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 7 JPA repository interfaces.
+2025-03-27 01:50:41.310  INFO 24992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-03-27 01:50:41.317  INFO 24992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27 01:50:41.317  INFO 24992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-03-27 01:50:41.390  INFO 24992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27 01:50:41.390  INFO 24992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1652 ms
+2025-03-27 01:50:41.755  INFO 24992 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27 01:50:41.809  INFO 24992 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-03-27 01:50:41.938  INFO 24992 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-03-27 01:50:42.012  INFO 24992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-27 01:50:42.312  INFO 24992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-27 01:50:42.320  INFO 24992 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-03-27 01:50:42.960  INFO 24992 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-27 01:50:42.974  INFO 24992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 01:50:43.548  WARN 24992 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27 01:50:44.828  INFO 24992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-27 01:50:44.828  INFO 24992 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-03-27 01:50:44.879  INFO 24992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-27 01:50:44.900  INFO 24992 --- [restartedMain] com.prjgrp.artf.ArtfApplication          : Started ArtfApplication in 5.689 seconds (JVM running for 6.214)
+2025-03-27 01:50:50.677  INFO 24992 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27 01:50:50.684  INFO 24992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27 01:50:50.685  INFO 24992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27 01:50:50.699  WARN 24992 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'goaltype' for method parameter type String is not present]
+2025-03-27 02:09:39.887  INFO 24992 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 293 ms
